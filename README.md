@@ -9,15 +9,17 @@ This is the research repository for the ACM UIST 2021 Paper: "TouchPose: Hand Po
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
 
-## Dataset
+## Dataset and Models
 
-The part of the dataset on capacitive touch images and depth maps will be released soon.
+Link to [Data](https://www.dropbox.com/s/aeh8ea6vqke2rrl/data.zip?dl=0).
+Link to [Model](https://www.dropbox.com/s/14qwi6hkgqo8pi2/models.zip?dl=0).
+
+Download the above and put them alongside the "src" folder.
 
 
 ## Code
 
-The code can be found in the src folder. The model weights for estimating depth maps from capacitive touch images will be released soon.
-
+The code can be found in the src folder. Please run the "evaluation" jupyter notebook.
 
 ## Publication reference
 
@@ -47,8 +49,8 @@ Karan Ahuja, Paul Streli and Christian Holz. 2021. TouchPose: Hand Pose Predicti
 
 ## Abstract
 
-Today's touchscreen devices commonly detect the coordinates of user input using capacitive sensing. Yet, these coordinates are the mere *2D manifestations* of the more complex 3D configuration of the whole hand&mdash;a sensation that touchscreen devices so far remain oblivious to  In this work, we introduce the problem of reconstructing a 3D hand skeleton from capacitive images, which encode the sparse observations captured by touch sensors. These low-resolution images represent intensity mappings that are proportional to the distance to the user's fingers and hands. 
-We present the first dataset of capacitive images with corresponding depth maps and 3D hand pose coordinates, comprising 65,374 aligned records from 10 participants. We introduce our supervised method TouchPose, which learns a 3D hand model and a corresponding depth map using a cross-modal trained embedding from capacitive images in our dataset. We quantitatively evaluate TouchPose's accuracy in touch contact classification, depth estimation, and 3D joint reconstruction, showing that our model generalizes to hand poses it has never seen during training and that it can infer joints that lie outside the touch sensor's volume. 
+Today's touchscreen devices commonly detect the coordinates of user input using capacitive sensing. Yet, these coordinates are the mere *2D manifestations* of the more complex 3D configuration of the whole hand&mdash;a sensation that touchscreen devices so far remain oblivious to  In this work, we introduce the problem of reconstructing a 3D hand skeleton from capacitive images, which encode the sparse observations captured by touch sensors. These low-resolution images represent intensity mappings that are proportional to the distance to the user's fingers and hands.
+We present the first dataset of capacitive images with corresponding depth maps and 3D hand pose coordinates, comprising 65,374 aligned records from 10 participants. We introduce our supervised method TouchPose, which learns a 3D hand model and a corresponding depth map using a cross-modal trained embedding from capacitive images in our dataset. We quantitatively evaluate TouchPose's accuracy in touch contact classification, depth estimation, and 3D joint reconstruction, showing that our model generalizes to hand poses it has never seen during training and that it can infer joints that lie outside the touch sensor's volume.
 Enabled by TouchPose, we demonstrate a series of interactive apps and novel interactions on multitouch devices. These applications show TouchPose's versatile capability to serve as a *general-purpose model*, operating independent of use-case, and establishing 3D hand pose as an integral part of the input dictionary for application designers and developers. We also release our dataset, code, and model to enable future work in this domain.
 
 ![TouchPose illustration of estimating the 3D hand pose and the depth image from a capacitive input image.](https://siplab.org/covers/touchpose.jpg)
@@ -86,4 +88,3 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareA
 [cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
 [cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
 [cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
-
