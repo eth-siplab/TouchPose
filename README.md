@@ -11,8 +11,9 @@ This is the research repository for the ACM UIST 2021 Paper: "TouchPose: Hand Po
 
 ## Dataset and Models
 
-Link to [Data](https://www.dropbox.com/s/aeh8ea6vqke2rrl/data.zip?dl=0).
-Link to [Model](https://www.dropbox.com/s/14qwi6hkgqo8pi2/models.zip?dl=0).
+Link to [Data](https://www.dropbox.com/s/aeh8ea6vqke2rrl/data.zip?dl=0)
+
+Link to [Model](https://www.dropbox.com/s/14qwi6hkgqo8pi2/models.zip?dl=0)
 
 Download the above and put them alongside the "src" folder.
 
